@@ -1,7 +1,7 @@
 import pandas as pd
 
 
-def load_income_entries_from_file():
+def load_entries_from_file():
     return pd.read_csv("../resources/income.csv", skipinitialspace=True)
 
 
@@ -20,12 +20,15 @@ def does_income_apply_to_month(delay, period, max_occurrences, month):
     return False
 
 
-def calculate_income_for_month(income, month):
+def calculate_income_for_month(income_entries, month):
     income_for_month = 0
-    for index, row in income.iterrows():
+
+    for index, row in income_entries.iterrows():
         delay = row["delay in months"]
         period = row["period in months"]
         max_occurrences = row["occurrences"]
+
         if does_income_apply_to_month(delay, period, max_occurrences, month):
             income_for_month += row["amount"]
+
     return income_for_month
