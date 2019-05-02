@@ -1,0 +1,8 @@
+                                   name,amount,period in months,delay in months,occurrences
+																																	salary, 10000,               0,              0,         -1
+                       bonus - year one,  2916,               0,              0,         12
+                       bonus - year two,  1833,               1,             12,         12
+                       stock - year one,  3750,               0,             12,          1
+                       stock - year two, 11250,               0,             24,          1
+stock - every six months after year two, 30000,               6,             30,          4
+

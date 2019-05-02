@@ -1,0 +1,22 @@
+              name,cost
+              rent,3000
+     hyundai:lease, 300
+ hyundai:insurance, 170
+              food, 500
+       hyundai:gas,  80
+     entertainment, 175
+           parking, 250
+           kitchen,  75
+       electronics, 250
+        phone:plan,  70
+      phone:device,  30
+     utilities:gas,  65
+   utilities:water, 100
+utilities:internet,  70
+  insurance:health,  72
+  insurance:dental,   3
+  insurance:vision,   9
+ insurance:renters,  12
+   travel:columbia,1000
+          clothing, 166
+household supplies,  16
